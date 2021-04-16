@@ -38,6 +38,3 @@ def largest_prime_factor(num):
     print("Prime Factors: ", prime_factors_list)
     print("Largest Prime Factor: ", max(prime_factors_list))
     return max(prime_factors_list)
-
-
-largest_prime_factor(435378)
