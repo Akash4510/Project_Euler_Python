@@ -1,7 +1,7 @@
 from math import isqrt
 
 
-# Finding the primes using Sieve of Eratosthenes.
+# Finding the primes using Sieve of Eratosthenes
 def primes_less_than(n: int) -> list[int]:
     if n <= 2:
         return []
